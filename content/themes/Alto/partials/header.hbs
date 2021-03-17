@@ -1,0 +1,16 @@
+<header class="site-header container">
+    <div class="navbar">
+        <div class="navbar-left">
+            <div class="burger hidden-lg hidden-xl"></div>
+            {{> logo}}
+            <div class="sep hidden-xs hidden-sm hidden-sm"></div>
+            {{#if @site.navigation}}
+                <nav class="main-menu hidden-xs hidden-sm hidden-md">
+                    {{navigation}}
+                </nav>
+            {{/if}}
+        </div>
+        <div class="navbar-right">
+        </div>
+    </div>
+</header>

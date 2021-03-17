@@ -25,6 +25,10 @@
       "description": "AWS Access Secret Key, if using S3 file storage.",
       "required": false
     },
+	"S3_ENDPOINT_URL": {
+      "description": "S3 endpoint URL for 3rd party S3 providers.",
+      "required": false
+    },
     "S3_BUCKET_NAME": {
       "description": "Name of your S3 bucket on AWS, if using S3 file storage.",
       "required": false
